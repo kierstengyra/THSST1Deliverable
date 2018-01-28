@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">AutomatedPsychTest</string>
+
+    <string name="enterPwd">Password</string>
+    <string name="btnOK">OK</string>
+
+    <string name="txtHasRecord">May rekord na ba ang estudyante?</string>
+    <string name="txtHasDrawing">May ginuhit ba ang estudyante?</string>
+    <string name="txtHasOtherStudents">Mayroon pa bang mga estudyante?</string>
+    <string name="btnYes2">Meron</string>
+    <string name="btnNo2">Wala</string>
+    <string name="btnYes">Oo</string>
+    <string name="btnNo">Hindi</string>
+
+    <string name="txtConfirmStudent">Pangalan ng Estudyante: </string>
+    <string name="btnConfirm">Tama</string>
+    <string name="btnBack">Ibahin</string>
+
+    <string name="txtSelectRecord">Pumili ng estudyante mula sa listahan:</string>
+    <string name="txtCreateRecord">Gumawa ng rekord para sa estudyante</string>
+
+    <string name="txtLastName">Apelyido</string>
+    <string name="txtFirstName">Pangalan</string>
+    <string name="txtMiddleName">Gitnang Pangalan</string>
+    <string name="txtAge">Edad</string>
+    <string name="txtGrade">Baitang</string>
+    <string name="txtSection">Seksyon</string>
+
+    <string name="txtNext">Sunod na katanungan</string>
+
+    <string name="photo">Bagong retrato</string>
+    <string name="proceed">Magpatuloy</string>
+
+    <string name="btnMadalas">Madalas</string>
+    <string name="btnMinsan">Minsan</string>
+    <string name="btnHindi">Hindi</string>
+
+    <string name="Q1">May reklamo na nakakaramdam ng sakit</string>
+    <string name="Q2">Mas maraming oras akong mag-isa</string>
+    <string name="Q3">Madali akong mapagod, unti-unti nauubos ang aking lakas</string>
+    <string name="Q4">Magalaw ako sa aking upuan, hindi ako makaupo ng diretso</string>
+    <string name="Q5">Lagi akong napapagsabihan (napapagalitan) ni titser</string>
+
+    <string name="Q6">Hindi masyado interesado sa aking pag-aaral</string>
+    <string name="Q7">Kumilos na parang hinihimok ng motor (sasakyan)</string>
+    <string name="Q8">Madalas na nananaginip ng gising</string>
+    <string name="Q9">Madaling maguluhan sa bagay-bagay, hindi maka-focus ng maayos sa aking gawain</string>
+    <string name="Q10">Takot ako sa bagong sitwasyon sa paligid</string>
+
+    <string name="Q11">Nakakaramdam ng lungkot, hindi masaya</string>
+    <string name="Q12">Ako ay iritable at galit</string>
+    <string name="Q13">Nakakaramdam ng kawalang pag-asa</string>
+    <string name="Q14">May problema sa pag-focus</string>
+    <string name="Q15">Hindi masyado interesado sa mga kaibigan</string>
+
+    <string name="Q16">Nakikipag-away sa ibang bata</string>
+    <string name="Q17">Lumiliban sa klase/eskwela</string>
+    <string name="Q18">Bumababa ang mga marka/grado sa eskwela</string>
+    <string name="Q19">Bumababa ang tingin sa sarili</string>
+    <string name="Q20">Bumibista sa doktor, kahit walang nakikitang sakit</string>
+
+    <string name="Q21">Nahihirapan matulog / may problema sa pagtulog</string>
+    <string name="Q22">Madalas mag-alala</string>
+    <string name="Q23">Mas gustong may kasama lagi hindi tulad dati (na mas kayang magisa)</string>
+    <string name="Q24">Nararamdaman na masama ang sarii</string>
+    <string name="Q25">Madalas na sumusubok ng hindi kinakailangang bagay</string>
+
+    <string name="Q26">Madalas na nakakaramdam ng sakit</string>
+    <string name="Q27">Tila nakakaramdam ng mas kaunting kasiyahan</string>
+    <string name="Q28">Kumikilos ng hindi naayon sa kanyang edad / kumikilos ng mas mababa sa kanyang edad</string>
+    <string name="Q29">Hindi nakikinig sa mga paalala/panuntunan</string>
+    <string name="Q30">Hindi nagpapakita ng damdamin</string>
+
+    <string name="Q31">Hindi inuunawa ang damdamin ng iba</string>
+    <string name="Q32">Mapanukso sa ibang tao</string>
+    <string name="Q33">Sinisisi ang iba dahil sa kanyang problema</string>
+    <string name="Q34">Kumukuha ng bagay na hindi sa kaniya / o hindi niya pag-aari</string>
+    <string name="Q35">Tumatangging mag-bahagi</string>
+
+    <string name="txtEnd">Maraming salamat!</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/goBack"
+        android:layout_gravity="left|top"
+        android:background="@drawable/go_back"
+        android:onClick="prev"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:text="@string/txtSelectRecord"
+        android:id="@+id/txtSelectRecord"
+        android:layout_gravity="top|left"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recordList"
+        android:layout_gravity="left|top"
+        android:paddingTop="50dp" />
+
+</FrameLayout>

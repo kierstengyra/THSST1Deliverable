@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="3">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:hint="@string/enterPwd"
+            android:ems="10"
+            android:id="@+id/enterPwd"
+            android:layout_gravity="center"
+            android:background="@drawable/line"
+            android:paddingBottom="10dp" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/btnOK"
+            android:id="@+id/submitPwd"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="askRecord"/>
+    </GridLayout>
+
+</FrameLayout>
+

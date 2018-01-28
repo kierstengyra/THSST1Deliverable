@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/goBack"
+        android:layout_gravity="left|top"
+        android:background="@drawable/go_back"
+        android:onClick="prev" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:text="@string/txtCreateRecord"
+        android:id="@+id/txtCreateRecord"
+        android:layout_gravity="left|top"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingStart="25dp"
+        android:textColor="#000000"
+        android:layout_marginStart="30dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:columnCount="6"
+        android:paddingStart="25dp"
+        android:paddingTop="50dp">
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputLastName"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:hint="@string/txtLastName"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputFirstName"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:hint="@string/txtFirstName"
+            android:textSize="16sp"
+            android:layout_columnSpan="2"/>
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputMiddleName"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:hint="@string/txtMiddleName"
+            android:textSize="16sp"
+            android:layout_columnSpan="2"/>
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/inputAge"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:hint="@string/txtAge"/>
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/inputGrade"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:hint="@string/txtGrade"/>
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputSection"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:hint="@string/txtSection"
+            android:layout_columnSpan="2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOK"
+            android:id="@+id/btnSubmitRecord"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:onClick="takePSC" />
+
+    </GridLayout>
+
+</FrameLayout>
